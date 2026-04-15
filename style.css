@@ -79,11 +79,7 @@ input:checked + .slider:before { transform: translateX(16px); }
 .sub-text { font-size: 10px; color: #888; margin-top: 5px; font-style: italic; }
 
 
-.divider {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
-}
+
 
 
 .login-footer {
