@@ -1,11 +1,11 @@
-/* General Styles */
+/* MAINNN STYLES. */
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     margin: 0;
     background-color: #f0f2f5;
 }
 
-/* --- LOGIN PAGE STYLES --- */
+/* --- THIS PART IS FOR LOGIN SLIDE OR PAGFE --- */
 .login-body {
     display: flex;
     justify-content: center;
@@ -22,9 +22,9 @@ body {
     text-align: center;
 }
 
-.logo { width: 60px; margin-bottom: 10px; }
+.logo { width: 60px; margin-bottom: 10px; } /* soon when we make the logo */
 
-/* Pill Shaped Labels and Inputs */
+
 .label-pill {
     background: #333;
     color: white;
@@ -45,7 +45,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* The Blue Toggle Switch */
 .switch {
     position: relative;
     display: inline-block;
@@ -79,14 +78,40 @@ input:checked + .slider:before { transform: translateX(16px); }
 
 .sub-text { font-size: 10px; color: #888; margin-top: 5px; font-style: italic; }
 
-/* The Bar Line (Divider) */
+
 .divider {
     border: 0;
     border-top: 1px solid #eee;
     margin: 20px 0;
 }
 
-/* --- DASHBOARD STYLES --- */
+
+.login-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: #6c757d; 
+    font-size: 0.85rem;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-top: 1px solid #dee2e6;
+}
+
+.login-footer a {
+    color: #00bcd4; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-bottom: 80px; 
+}
+
+/* --- THIS PART DOWN HERE IS FOR THE DASHBOARD PAGFE OR SLDIE STYLES --- */
 .dashboard-container { display: flex; height: 100vh; }
 
 .sidebar {
@@ -115,7 +140,7 @@ input:checked + .slider:before { transform: translateX(16px); }
 
 .sidebar {
     width: 250px;
-    background-color: #212529; /* Dark gray/black */
+    background-color: #212529; 
     padding: 20px;
     color: white;
 }
