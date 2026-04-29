@@ -166,22 +166,9 @@ body {
     object-position: top; 
 }
 
-
-.card-banner-vertical {
-    width: 100%;
-    
-    aspect-ratio: 3 / 4; 
-    
-    background-image: url('englishcover.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 2px solid #eee; 
-
-}
-.notebook-card {
-    transition: all 0.3s ease;
-    border-left: 4px solid #0dcaf0 !important; 
+.card {
+    max-width: 300px; /* This keeps it from stretching too wide */
+    margin: 0 auto;   /* Centers it */
 }
 
 .notebook-card:hover {
