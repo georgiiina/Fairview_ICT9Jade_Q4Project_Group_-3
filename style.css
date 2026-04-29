@@ -167,14 +167,18 @@ body {
 
 .card-banner-vertical {
     width: 100%;
-  
     aspect-ratio: 3 / 4; 
-    background-image: url('english-cover.png');
+    background-image: url('englishcover.png');
     background-size: cover;
-    
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
+    display: block; 
+}
+
+.card-body {
     display: block;
+    position: relative;
+    z-index: 2;
 }
 
 
