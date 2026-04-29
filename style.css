@@ -168,7 +168,7 @@ body {
 .card-banner-vertical {
     width: 100%;
     aspect-ratio: 3 / 4; 
-    background-image: url('englishcover.png');
+    background-image: url('english-cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
