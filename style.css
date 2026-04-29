@@ -159,21 +159,25 @@ body {
 .card { transition: transform 0.2s; cursor: pointer; }
 .card:hover { transform: translateY(-5px); }
 
-.card-banner {
+.card-banner-vertical {
     width: 100%;
-    height: 140px; /* This gives the 'invisible' box a height */
-    background-image: url('english_cover.png'); 
+    /* This creates a vertical rectangle (3 units wide, 4 units tall) */
+    aspect-ratio: 3 / 4; 
+    
+    background-image: url('englishcover.png'); /* Ensure this filename is correct */
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: #f8d7da; /* A fallback color in case the image fails */
+    border-bottom: 2px solid #eee; /* Adds a nice divider */
 }
 
-/* Optional: Makes the card feel like a button */
-.card {
-    transition: transform 0.2s;
+/* This makes the card look like a physical notebook */
+.notebook-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid #0dcaf0 !important; /* Adds a "binding" color on the left */
 }
-.card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
+
+.notebook-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
 }
