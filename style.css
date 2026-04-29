@@ -156,19 +156,28 @@ body {
  
 /* --- THIS PART DOWN HERE IS FOR THE NOTEBOOKS PAGE --- */
 
-.card { transition: transform 0.2s; cursor: pointer; }
-.card:hover { transform: translateY(-5px); }
-
-.notebook-cover {
-    width: 100%;
-    height: 350px; 
-    object-fit: cover; 
-    object-position: top; 
+.card { 
+    transition: transform 0.2s; 
+    cursor: pointer; 
 }
 
-.card {
-    max-width: 300px; /* This keeps it from stretching too wide */
-    margin: 0 auto;   /* Centers it */
+.card:hover { 
+    transform: translateY(-5px); 
+}
+
+.card-banner-vertical {
+    width: 100%;
+    aspect-ratio: 3 / 4; 
+    background-image: url('english-cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #eee; 
+} /* <--- Added this missing bracket! */
+
+.notebook-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid #0dcaf0 !important; 
 }
 
 .notebook-card:hover {
