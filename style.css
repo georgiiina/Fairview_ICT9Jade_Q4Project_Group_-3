@@ -164,7 +164,7 @@ body {
     /* This creates a vertical rectangle (3 units wide, 4 units tall) */
     aspect-ratio: 3 / 4; 
     
-    background-image: url('englishcover.png'); /* Ensure this filename is correct */
+    background-image: url('C:\Users\Win\Downloads\englishcover.png'); /* Ensure this filename is correct */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
