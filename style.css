@@ -155,3 +155,5 @@ body {
 }
 
 
+.card { transition: transform 0.2s; cursor: pointer; }
+.card:hover { transform: translateY(-5px); }
