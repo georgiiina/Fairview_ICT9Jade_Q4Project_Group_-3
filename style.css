@@ -167,13 +167,16 @@ body {
 
 .card-banner-vertical {
     width: 100%;
+  
     aspect-ratio: 3 / 4; 
     background-image: url('english-cover.png');
     background-size: cover;
-    background-position: center;
+    
+    background-position: center; 
     background-repeat: no-repeat;
-    border-bottom: 2px solid #eee; 
-} /* <--- Added this missing bracket! */
+    display: block;
+}
+
 
 .notebook-card {
     transition: all 0.3s ease;
