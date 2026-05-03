@@ -167,11 +167,34 @@ body {
 .card-banner-vertical {
     width: 100%;
     aspect-ratio: 3 / 4; 
-    background-image: url('english-cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: block; 
+}
+
+.math-bg {
+    background-image: url('math-cover.png');
+}
+
+.english-bg {
+    background-image: url('english-cover.png');
+}
+
+.science-bg {
+    background-image: url('science-cover.png');
+}
+
+.social-bg {
+    background-image: url('socialstudiescover.png');
+}
+
+.word-bg {
+    background-image: url('wordbuilding-cover.png');
+}
+
+.literature-bg {
+    background-image: url('literature-cover.png');
 }
 
 .card-body {
