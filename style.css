@@ -215,7 +215,7 @@ body {
 }
 
 
-/* The black "TASKS" badge */
+
 .tasks-badge {
     background-color: #1a1a1a;
     color: white;
@@ -225,7 +225,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* The White Task Card */
+
 .task-card {
     background: white;
     padding: 25px;
@@ -259,4 +259,33 @@ body {
 main {
     background: #f8f9fa;
     min-height: 100vh;
+}
+
+/* This forces the banner to be a tall vertical rectangle */
+.card-banner-vertical {
+    height: 450px; /* High value creates the tall vertical look */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+/* Ensure the card doesn't get too wide, which keeps it looking like a rectangle */
+.notebook-card {
+    max-width: 320px; 
+    margin: 0 auto; /* Centers the card in its column */
+    border-radius: 20px !important; /* Matches the rounded corners in your image */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the text section at the bottom compact so the focus is the tall image */
+.card-body {
+    padding: 15px 20px !important;
+    flex-grow: 0; /* Prevents the white bottom part from stretching */
+}
+
+/* Make subject titles pop */
+.notebook-card h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
